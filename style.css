@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.col{
+	padding:30px;
+}
+.img{
+	width:250px;
+	height:250px;
+}
+.without:hover{
+	transition:without;
+}
+.width:hover{
+	transition:width;
+	width:500px;
+}
+.delaywidth:hover{
+	transition:2s;
+	width:500px;
+}
+.delayheight:hover{
+	transition:2s;
+	height:300px;
+}
+.delayheightwidth:hover{
+	transition:5s;
+	height:300px;
+	width:400px;
+}
+.durationw:hover{
+	transition:3s;
+	width:300px;
+}
+.durationh:hover{
+	transition:3s;
+	height:350px;
+}
+.ease:hover{
+	transition-timing-function:ease;
+	transition:8s;
+	width:500px;
+}
+.linear:hover{
+	transition-timing-function:linear;
+	transition:8s;
+	width:500px;
+}
+.ease-in:hover{
+	transition-timing-function:ease-in;
+	transition:5s;
+	width:500px;
+}
+.ease-out:hover{
+	transition-timing-function:ease-out;
+	transition:5s;
+	width:500px;
+}
+.ease-inout:hover{
+	transition-timing-function:ease-in-out;
+	transition:5s;
+	width:500px;
+}
+.cubic:hover{
+	transition-timing-function:cubic-bezier(0,0,1,1);
+	transition:5s;
+	width:500px;
+}
+
